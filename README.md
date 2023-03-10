@@ -1,15 +1,14 @@
-# DepiMap - Differential Epigenomic Map
+# DepiMap
 
-# This script is used to analyze the epigenomic dynamic profile among samples/conditions.
+## DepiMap (Differential Epigenomic Map) is used to analyze and visulize the dynamic epigenomic profiles among samples/conditions.
 
 ## Authors
 - Jiejun Shi (shij@tongji.edu.cn)
 ## Dependencies
 - R with following packages
   - getopt
-## Installation
-No installation needed.
 ## Usage
+```
 $ Rscript DepiMap.r -h
 Usage: Rscript DepiMap.r [-[-help|h]] [-[-SampleMatrixes|s] <character>] [-[-SampleNames|n] <character>] [-[-Zmax|z] <character>] [-[-Colors|c] <character>] [-[-SmoothWindow|S] <integer>] [-[-Subtrahend|u] <character>] [-[-Minuend|m] <character>] [-[-DeltaZmax|Z] <character>] [-[-DeltaColors|C] <character>] [-[-IDfiles|i] <character>] [-[-IDorder|I]] [-[-WhichOrder|w] <character>] [-[-OrderInterval|v] <character>] [-[-Decreasing|d] <character>] [-[-DeltaOrder|o] <character>] [-[-LabelIDfile|l] <character>] [-[-ColorResolution|r] <integer>] [-[-UseRaster|R]] [-[-OutTiff|t] <character>] [-[-PanelWidth|W] <integer>] [-[-TotalHeight|H] <integer>] [-[-Xtick|x] <character>]
     -h|--help               useage
@@ -35,5 +34,5 @@ Usage: Rscript DepiMap.r [-[-help|h]] [-[-SampleMatrixes|s] <character>] [-[-Sam
     -W|--PanelWidth         Width of each Column Panel. Default is 300.
     -H|--TotalHeight        Total Height of the plot. Default is 1200.
     -x|--Xtick              Xtick interval length indicated by either 2(TSS upstream and downstream) or 3(TSS upstream, genebody and TES downstream) integers seperated by ",". Default is 5000,5000.
-    
+```
     
