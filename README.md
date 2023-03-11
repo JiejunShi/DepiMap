@@ -35,4 +35,4 @@ Usage: Rscript DepiMap.r [-[-help|h]] [-[-SampleMatrixes|s] <character>] [-[-Sam
     -H|--TotalHeight        Total Height of the plot. Default is 1200.
     -x|--Xtick              Xtick interval length indicated by either 2(TSS upstream and downstream) or 3(TSS upstream, genebody and TES downstream) integers seperated by ",". Default is 5000,5000.
 ```
-**Note:** *>deeptools-computeMatrix* is recommended to generate the input SampleMatrix.
+**Note:** *deeptools-computeMatrix* is recommended to generate the input SampleMatrix.
