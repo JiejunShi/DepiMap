@@ -1,6 +1,6 @@
-# DepiMap
+# DepiMap - ***D***ifferential ***Epi***genomic ***Map***
 
-## DepiMap (***D***ifferential ***Epi***genomic ***Map***) is used to analyze and visulize the dynamic epigenomic profiles among samples/conditions.
+## DepiMap is used to analyze and visulize the dynamic epigenomic profiles among samples/conditions.
 
 ## Authors
 - Jiejun Shi (shij@tongji.edu.cn)
