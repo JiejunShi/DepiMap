@@ -36,3 +36,10 @@ Usage: Rscript DepiMap.r [-[-help|h]] [-[-SampleMatrixes|s] <character>] [-[-Sam
     -x|--Xtick              Xtick interval length indicated by either 2(TSS upstream and downstream) or 3(TSS upstream, genebody and TES downstream) integers seperated by ",". Default is 5000,5000.
 ```
 **Note:** *deeptools-computeMatrix* is recommended to generate the input SampleMatrix.
+
+## Citation
+DepiMap was introduced and used in papers below. 
+
+Shi, J. *et al*. Drosophila Brahma complex remodels nucleosome organizations in multiple aspects. [***Nucleic Acids Research*** 42(15):9730-9739 (2014).](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gku717)
+
+Hsu, C.C., Shi, J. *et al*. Recognition of histone acetylation by the GAS41 YEATS domain promotes H2A.Z deposition in non-small cell lung cancer. [***Genes & Development*** 32:58-69 (2018).](http://genesdev.cshlp.org/content/32/1/58.long)
